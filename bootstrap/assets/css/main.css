@@ -1,69 +1,53 @@
-@font-face{
-font-family: lexend;
-src: url(../fonts/Lexend-VariableFont_wght.ttf);
-
+@font-face {
+  font-family: lexend;
+  src: url(../fonts/Lexend-VariableFont_wght.ttf);
 }
 
+.firstBlockContainer {
+  margin: 5%;
+}
 
 icon-container {
-
-    position: relative;
+  /* position: relative; */
 }
 
 .icon-image {
-    position: absolute;
-    width:115px;
-    height: 36px;
-    top: 45px;
-    left: 120px;    
+  /* position: absolute;
+  width: 115px;
+  height: 36px;
+  top: 45px;
+  left: 120px; */
 }
-.main-title{
-    
-    position: absolute;
-    top: 182px; 
-    left: 120px;
-    gap: 32px;
-    width: 496px;
-    height: 446px;
-
+.main-title {
+  margin-top: 15%;
 }
 
-.main-title{
-position: absolute;
-gap: 28px;
-
-}
 .main-title h1 {
-    border: 1px;
-    width: 496px;
-    height: 150px;
-    font-family: lexend;
-    font-size: 40px;
-    line-height: 50px;
+  border: 1px;
+  width: 496px;
+  height: 150px;
+  font-family: lexend;
+  font-size: 40px;
+  line-height: 50px;
 
-    font-weight: 700;
-    color: #1B1C57;
-    
+  font-weight: 700;
+  color: #1b1c57;
 }
 
-.main-title p{
-font-family: lexend;
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
-color:  #626687;
-opacity:75% ;
-
+.main-title p {
+  font-family: lexend;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #626687;
+  opacity: 75%;
 }
 
-.hollow-text{
-   
-	-webkit-text-stroke: 1px  #1B1C57;
-	-webkit-text-fill-color: white;
-
+.hollow-text {
+  -webkit-text-stroke: 1px #1b1c57;
+  -webkit-text-fill-color: white;
 }
 .search-bar-container {
-    position: relative;
-    margin-top: 20px;
+  /* position: relative;
+  margin-top: 20px; */
 }
-
